@@ -10,7 +10,8 @@ cents %= 5
 
 pennies = cents
 
-print(f"Q: {quarters},\n"
-      f"D: {dimes},\n"
-      f"N: {nickels},\n"
+print("\n"
+      f"Q: {quarters}\n"
+      f"D: {dimes}\n"
+      f"N: {nickels}\n"
       f"P: {pennies}")
