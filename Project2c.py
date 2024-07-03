@@ -1,5 +1,6 @@
-cents = int(input("Please enter an amount in cents less than a dollar: "))
 
+
+cents = int(input("Please enter an amount in cents less than a dollar: "))
 quarters = cents // 25
 cents %= 25
 
@@ -11,7 +12,7 @@ cents %= 5
 
 pennies = cents
 
-print(f"Your change will be Q: {quarters},"
-      f" D: {dimes}, "
-      f"N: {nickels}, "
+print(f"Q: {quarters},\n"
+      f"D: {dimes},\n"
+      f"N: {nickels},\n"
       f"P: {pennies}")
